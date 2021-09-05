@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HVPM_CCS_MPC_Current/HVPM_CCS.c&apos; to &apos;HVPM_Current.c&apos;" description="Rename resource &apos;HVPM_CCS.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HVPM_CCS.c" name="HVPM_Current.c" stamp="1610862599896" updateReferences="true"/>
+</session>

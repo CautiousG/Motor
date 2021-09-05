@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="312" key="DIALOG_X_ORIGIN"/>
+		<item value="137" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item value="true" key="actionSetFilter"/>
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="MemoryDumperFillAction">
+		<item value="TIXDS100v2" key="com.ti.ccstudio.system.setup.ui.editors.connectionType"/>
+		<item value="Texas Instruments XDS100v3 USB Debug Probe" key="com.ti.ccstudio.system.setup.ui.editors.connectionName"/>
+	</section>
+	<section name="targetStatusBarPreferencePage">
+	</section>
+</section>

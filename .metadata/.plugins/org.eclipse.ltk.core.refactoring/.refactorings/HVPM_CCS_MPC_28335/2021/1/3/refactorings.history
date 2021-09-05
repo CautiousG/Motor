@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HVPM_CCS_MPC_28335/HVPM_Sensorless.c&apos; to &apos;HVPM_CCS.c&apos;" description="Rename resource &apos;HVPM_Sensorless.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HVPM_Sensorless.c" name="HVPM_CCS.c" stamp="1610783935463" updateReferences="true"/>
+</session>

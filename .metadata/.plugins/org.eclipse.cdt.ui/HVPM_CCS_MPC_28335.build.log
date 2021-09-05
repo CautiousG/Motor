@@ -1,0 +1,21 @@
+
+**** Build of configuration F2833x_RAM for project HVPM_CCS_MPC_28335 ****
+
+"D:\\ti\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../HVPM_CCS.c'
+'Invoking: C2000 Compiler'
+"D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -O2 --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/CCS_MPC" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/SCI" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/SC16IS750" --include_path="D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/include" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/SPI" --include_path="D:/ti/controlSUITE/device_support/f2833x/v132/DSP2833x_headers/include" --include_path="D:/ti/controlSUITE/device_support/f2833x/v132/DSP2833x_common/include" --include_path="D:/ti/controlSUITE/libs/math/IQmath/v15c/include" --include_path="D:/ti/controlSUITE/development_kits/~SupportFiles/F2833x_headers" --include_path="D:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.0" --include_path="D:/ti/controlSUITE/libs/app_libs/motor_control/drivers/f2833x_v2.0" --advice:performance=all --define="_DEBUG" --define="LARGE_MODEL" --define="FLOATING_MATH" -g --diag_warning=225 --quiet --preproc_with_compile --preproc_dependency="HVPM_CCS.d_raw"  "../HVPM_CCS.c"
+'Finished building: ../HVPM_CCS.c'
+' '
+'Building file: ../CCS_MPC/arithmetic.c'
+'Invoking: C2000 Compiler'
+"D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -O2 --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/CCS_MPC" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/SCI" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/SC16IS750" --include_path="D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/include" --include_path="E:/CCS_Pro/HVPM_CCS_MPC_28335/SPI" --include_path="D:/ti/controlSUITE/device_support/f2833x/v132/DSP2833x_headers/include" --include_path="D:/ti/controlSUITE/device_support/f2833x/v132/DSP2833x_common/include" --include_path="D:/ti/controlSUITE/libs/math/IQmath/v15c/include" --include_path="D:/ti/controlSUITE/development_kits/~SupportFiles/F2833x_headers" --include_path="D:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.0" --include_path="D:/ti/controlSUITE/libs/app_libs/motor_control/drivers/f2833x_v2.0" --advice:performance=all --define="_DEBUG" --define="LARGE_MODEL" --define="FLOATING_MATH" -g --diag_warning=225 --quiet --preproc_with_compile --preproc_dependency="CCS_MPC/arithmetic.d_raw"  "../CCS_MPC/arithmetic.c"
+'Finished building: ../CCS_MPC/arithmetic.c'
+' '
+'Building target: HVPM_Sensorless_2833x.out'
+'Invoking: C2000 Linker'
+"D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -O2 --advice:performance=all --define="_DEBUG" --define="LARGE_MODEL" --define="FLOATING_MATH" -g --diag_warning=225 --quiet -z -m"HVPM_Sensorless_2833x.map" --heap_size=0x800 --stack_size=0x380 --warn_sections -i"D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/lib" -i"D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.4.LTS/include" -i"E:/CCS_Pro/HVPM_CCS_MPC_28335" --reread_libs --xml_link_info="HVPM_Sensorless_2833x_linkInfo.xml" --rom_model -o "HVPM_Sensorless_2833x.out" "D:/ti/controlSUITE/libs/math/FPUfastRTS/V100/lib/rts2800_fpu32_fast_supplement.lib" -lrts2800_fpu32.lib "D:/ti/controlSUITE/libs/math/IQmath/v15c/lib/IQmath_fpu32.lib" "./DLOG4CHC.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_usDelay.obj" "./HVPM_CCS.obj" "./HVPM_Sensorless-DevInit_F2833x.obj" "./arithmetic.obj" "./matrix.obj" "./f28335_SCI.obj" "D:/ti/controlSUITE/device_support/f2833x/v132/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd" "../F28335_RAM_HVPM_Sensorless.CMD"  
+'Finished building target: HVPM_Sensorless_2833x.out'
+' '
+
+**** Build Finished ****
